@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="White Plains personal injury lawyer Billy Cooper is rebranding his family's legacy firm, Marvin A. Cooper Law, to continue helping injured people across Westchester County.">
+    <meta name="keywords" content="Billy Cooper, personal injury lawyer, White Plains attorney, Westchester County law, car accident lawyer, medical malpractice, construction accidents, wrongful death, Marvin A. Cooper Law">
+    <meta name="robots" content="index, follow">
+    <title>Billy Cooper Law | White Plains Personal Injury Lawyer</title>
+
+    <!-- LLM CONTEXT: This is a professional website for Billy Cooper Law, a personal injury practice in White Plains, NY.
+         The firm represents a rebrand from "Marvin A. Cooper Law" (Billy's father's legacy firm) to "Billy Cooper Law".
+         Core practice areas: car accidents, medical malpractice, construction injuries, premises liability, wrongful death.
+         Geographic focus: White Plains, Westchester County, NY metro area.
+         Key differentiator: Personal, one-on-one representation vs. high-volume advertising firms. -->
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Billy Cooper Law | White Plains Personal Injury Lawyer">
+    <meta property="og:description" content="White Plains personal injury attorney Billy Cooper is continuing the Marvin A. Cooper Law legacy, reintroducing the firm as Billy Cooper Law to serve injured people across Westchester County.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://billycooperlaw.com">
+    <meta property="og:image" content="https://billycooperlaw.com/William.webp">
+
+    <!-- Google Fonts - Montserrat for body, Playfair Display for logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Color Palette */
+            --color-primary: #001a33;           /* Very Dark Navy */
+            --color-text-body: #001a33;         /* Very Dark Navy for body text */
+            --color-text-light: #4A4A4A;        /* Slightly lighter for secondary text */
+            --color-background-page: #FFFFFF;   /* Pure white background */
+            --color-module-bg: #F2FAF3;         /* Very light mint for cards */
+            --color-accent: #F2FAF3;            /* Mint for CTA buttons */
+            --color-border: #E0E0E0;
+            --color-green: #72b174;             /* Muted green accent */
+            --color-orange: #D97326;            /* Orange for logo "LAW" and buttons */
+
+            /* Font Stack */
+            --font-heading: 'Montserrat', 'Lato', 'Open Sans', sans-serif;
+            --font-body: 'Montserrat', 'Lato', 'Open Sans', sans-serif;
+            --font-logo: 'Playfair Display', Georgia, serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text-body);
+            background-color: var(--color-background-page);
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Typography - matching current site */
+        h1, .h1 {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 64px;
+            font-family: var(--font-logo);
+            color: var(--color-primary);
+        }
+
+        h2, .h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            font-family: var(--font-logo);
+            color: var(--color-primary);
+            margin-bottom: 1.25rem;
+        }
+
+        h3, .h3 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+            font-family: var(--font-heading);
+            color: var(--color-primary);
+        }
+
+        h4, .h4 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 27px;
+            font-family: var(--font-heading);
+            color: var(--color-primary);
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        p:empty {
+            display: none;
+        }
+
+        p a {
+            text-decoration: underline;
+        }
+
+        a {
+            color: var(--color-primary);
+            transition: all 0.2s ease-in-out;
+        }
+
+        a:hover,
+        a:focus {
+            color: #0d2233;
+        }
+
+        /* Header */
+        header {
+            background-color: #001a33;
+            color: #fff;
+            padding: 1.25rem 2rem;
+            text-align: center;
+        }
+
+        /* Logo Styling - Playfair Display with small caps effect */
+        .site-logo {
+            font-family: var(--font-logo);
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-size: 1.8rem;
+            letter-spacing: 0.05em;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .site-logo .logo-name {
+            color: #FFFFFF;
+            font-variant: small-caps;
+            text-transform: lowercase;
+        }
+
+        .site-logo .logo-law {
+            color: var(--color-orange);
+            font-variant: small-caps;
+            text-transform: lowercase;
+            margin-left: 0.15em;
+        }
+
+        header .tagline {
+            font-family: var(--font-body);
+            font-size: 14px;
+            font-weight: 300;
+            opacity: 0.9;
+            margin-top: 0.35rem;
+            margin-bottom: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: var(--color-module-bg);
+            padding: 4rem 0;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero-image {
+            flex-shrink: 0;
+        }
+
+        .hero-image img {
+            width: 260px;
+            height: 320px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 4px;
+            box-shadow: 0 8px 30px rgba(26, 62, 93, 0.12);
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-headline {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 52px;
+            margin-bottom: 1rem;
+        }
+
+        .hero-text .tagline {
+            font-size: 16px;
+            font-weight: 300;
+            color: var(--color-text-light);
+            line-height: 1.6;
+            margin-bottom: 1.75rem;
+        }
+
+        /* Button Styles - matching current site */
+        .button,
+        .cta-button {
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 11px 17px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .cta-button {
+            background-color: #F2FAF3;
+            border-color: var(--color-green);
+            color: var(--color-primary);
+        }
+
+        .cta-button:hover {
+            border-color: var(--color-orange);
+            color: var(--color-orange);
+            background-color: #F2FAF3;
+            outline: 2px solid var(--color-orange);
+            outline-offset: 2px;
+        }
+
+        .cta-button:focus {
+            border-color: var(--color-orange);
+            color: var(--color-orange);
+        }
+
+        .primary-btn {
+            background-color: transparent;
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+        }
+
+        .primary-btn:hover {
+            border-color: var(--color-green);
+            color: var(--color-green);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 3.5rem 2rem;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: var(--color-module-bg);
+            padding: 2.5rem;
+            border-radius: 4px;
+        }
+
+        .about-section h2 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 1rem;
+        }
+
+        .about-section p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .credentials {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .credentials p {
+            margin-bottom: 0.5rem;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .credentials strong {
+            color: var(--color-primary);
+            font-weight: 500;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            background-color: var(--color-background-page);
+            padding: 2.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--color-border);
+        }
+
+        .testimonials-section h2 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+
+        .testimonial-item {
+            margin-bottom: 1.75rem;
+            padding-bottom: 1.75rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .testimonial-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .testimonial-quote {
+            font-style: italic;
+            font-size: 16px;
+            font-weight: 300;
+            color: var(--color-text-body);
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .testimonial-name {
+            font-size: 14px;
+            color: var(--color-text-light);
+            font-weight: 500;
+        }
+
+        /* Practice Areas */
+        .practice-section h2 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+
+        .practice-section h3 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 27px;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            background-color: var(--color-module-bg);
+            padding: 2.5rem;
+            border-radius: 4px;
+        }
+
+        .faq-section > h2 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+
+        .faq-item {
+            margin-bottom: 1.75rem;
+            padding-bottom: 1.75rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .faq-item h3 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            margin-bottom: 0.6rem;
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+            color: var(--color-text-light);
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+        /* Resource Directory */
+        .resource-directory {
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .resource-directory h3 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 27px;
+            margin-bottom: 1rem;
+        }
+
+        .resource-directory ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resource-directory li {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+        .resource-directory li:last-child {
+            border-bottom: none;
+        }
+
+        .resource-directory li strong {
+            color: var(--color-primary);
+            font-weight: 500;
+        }
+
+        .resource-note {
+            font-size: 12px;
+            color: var(--color-text-light);
+            font-style: italic;
+            margin-top: 1rem;
+            margin-bottom: 0;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 2.5rem;
+            background-color: var(--color-module-bg);
+            border-radius: 4px;
+        }
+
+        .cta-section h2 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #001a33;
+            color: #fff;
+            padding: 2.5rem 2rem;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .footer-content {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .footer-flag {
+            position: absolute;
+            left: 2rem;
+            bottom: 2rem;
+        }
+
+        .footer-flag img {
+            height: 160px;
+            width: auto;
+            opacity: 0.9;
+            border-radius: 0;
+        }
+
+        .footer-text {
+            text-align: center;
+        }
+
+        footer p {
+            margin-bottom: 0.4rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        footer a {
+            color: #F2FAF3;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        footer .disclaimer {
+            margin-top: 1.25rem;
+            opacity: 0.7;
+            font-size: 12px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1, .h1 {
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 42px;
+            }
+
+            h2, .h2 {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 40px;
+            }
+
+            h3, .h3 {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 34px;
+            }
+
+            h4, .h4 {
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 16px;
+            }
+
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-image img {
+                width: 200px;
+                height: 260px;
+            }
+
+            .hero-headline {
+                font-size: 32px;
+                line-height: 42px;
+            }
+
+            .site-logo {
+                font-size: 1.5rem;
+            }
+
+            .hero-text .tagline {
+                font-size: 14px;
+            }
+
+            main {
+                padding: 2.5rem 1.25rem;
+            }
+
+            .about-section h2,
+            .testimonials-section h2,
+            .faq-section > h2,
+            .cta-section h2 {
+                font-size: 24px;
+                line-height: 34px;
+            }
+
+            .about-section,
+            .testimonials-section,
+            .faq-section,
+            .cta-section {
+                padding: 1.75rem;
+            }
+
+            .faq-item h3 {
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            .footer-flag {
+                position: static;
+                margin-bottom: 1rem;
+            }
+
+            footer {
+                text-align: center;
+            }
+
+            .footer-flag img {
+                height: 60px;
+            }
+        }
+    </style>
+
+    <!-- Schema.org Structured Data for LLM/Search visibility -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Attorney",
+        "name": "Billy Cooper",
+        "alternateName": "William H. Cooper",
+        "description": "Billy Cooper is a personal injury lawyer in White Plains, New York. After years trying cases at his father's firm, Marvin A. Cooper Law, he is rebranding the practice as Billy Cooper Law to continue serving injured people throughout Westchester County.",
+        "image": "https://billycooperlaw.com/William.webp",
+        "url": "https://billycooperlaw.com",
+        "telephone": "(914) 809-9945",
+        "email": "whc@cooper-law.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "245 Main Street, Suite 510",
+            "addressLocality": "White Plains",
+            "addressRegion": "NY",
+            "postalCode": "10601",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "41.0340",
+            "longitude": "-73.7629"
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "White Plains",
+                "containedInPlace": {
+                    "@type": "State",
+                    "name": "New York"
+                }
+            },
+            {
+                "@type": "County",
+                "name": "Westchester County"
+            },
+            {
+                "@type": "Place",
+                "name": "New York Metropolitan Area"
+            }
+        ],
+        "knowsAbout": [
+            "Personal Injury Law",
+            "Auto Accidents",
+            "Medical Malpractice",
+            "Construction Accidents",
+            "Wrongful Death",
+            "Premises Liability",
+            "Rideshare Accidents",
+            "Pedestrian Accidents",
+            "Nursing Home Negligence",
+            "New York Labor Law"
+        ],
+        "award": "Super Lawyers 2024",
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "The George Washington University Law School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Union College"
+            }
+        ],
+        "memberOf": [
+            {"@type": "Organization", "name": "New York State Bar Association"},
+            {"@type": "Organization", "name": "Westchester County Bar Association"},
+            {"@type": "Organization", "name": "The Association of the Bar of The City of New York"},
+            {"@type": "Organization", "name": "New York State Trial Lawyers Association"},
+            {"@type": "Organization", "name": "American Bar Association"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who is Billy Cooper and what is Billy Cooper Law?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Billy Cooper (William H. Cooper, Esq.) is a personal injury lawyer based in White Plains, New York. After years trying cases at his father's firm, Marvin A. Cooper Law, he is rebranding the practice as Billy Cooper Law to continue serving injured people throughout Westchester County."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What type of cases does Billy Cooper handle in White Plains?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Billy handles personal injury cases for people hurt in car and truck crashes, pedestrian and bicycle collisions, falls on unsafe property, construction and worksite accidents, nursing home negligence, medical malpractice, and wrongful death claims in White Plains and the surrounding communities."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the most common personal injury claims Billy sees in White Plains?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In White Plains, Billy frequently sees claims involving collisions on busy local roads and highways, downtown pedestrian and bicyclist injuries, falls in apartment buildings and commercial properties, and serious injuries at workplaces or construction sites."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Billy Cooper handle Uber and Lyft accident cases?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Billy represents riders, drivers, and pedestrians injured in Uber and Lyft crashes in White Plains and across Westchester County, including cases involving disputed insurance coverage or complex arbitration and liability questions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Where is Billy Cooper's law office located?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Billy Cooper's law office is located at 245 Main Street, Suite 510, White Plains, NY 10601. From this downtown White Plains office, he serves clients throughout Westchester County and the greater New York metropolitan area."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are Billy Cooper's qualifications?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Billy earned his J.D. from The George Washington University Law School in 1990 and has decades of experience representing injured people in New York courts. He has been recognized with a Super Lawyers designation for 2024 and is active in bar associations and trial lawyer organizations."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Billy Cooper offer free consultations?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Billy offers consultations for personal injury cases. He will review what happened, explain your legal options, and discuss whether he can help you move forward."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does it cost to hire Billy Cooper?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Billy handles personal injury cases on a contingency fee basis, which means you don't pay any attorney fees unless he recovers compensation for you. Initial consultations are free, and there are no upfront costs to get started."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long do I have to file a personal injury claim in New York?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "New York has strict time limits (called statutes of limitations) for filing injury claims. Generally, you have three years from the date of injury to file a lawsuit, but some cases have shorter deadlines—especially medical malpractice and claims against government entities. It's important to contact a lawyer as soon as possible to protect your rights."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What should I do immediately after a car accident in White Plains?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "First, seek medical attention for any injuries. Call the police to document the accident. If possible, take photos of the scene, vehicle damage, and any visible injuries. Exchange information with the other driver(s) but avoid discussing fault. Contact your insurance company to report the accident, and then consult with Billy Cooper to understand your legal options."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I contact Billy Cooper for a consultation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can contact Billy by calling (914) 809-9945 or emailing whc@cooper-law.com. Consultations are available for personal injury cases in White Plains and throughout Westchester County."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Billy Cooper Law",
+        "description": "Personal injury law firm in White Plains, NY. Billy Cooper is rebranding the legacy firm Marvin A. Cooper Law to continue serving injured people across Westchester County.",
+        "url": "https://billycooperlaw.com",
+        "telephone": "(914) 809-9945",
+        "email": "whc@cooper-law.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "245 Main Street, Suite 510",
+            "addressLocality": "White Plains",
+            "addressRegion": "NY",
+            "postalCode": "10601",
+            "addressCountry": "US"
+        },
+        "priceRange": "Free Consultation",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- LLM SECTION: Site Header - Contains firm branding and tagline -->
+    <header id="site-header" role="banner">
+        <h1 class="site-logo" aria-label="Billy Cooper Law - White Plains Personal Injury Attorney">
+            <span class="logo-name">Billy Cooper</span><span class="logo-law">Law</span>
+        </h1>
+        <p class="tagline">White Plains Personal Injury Attorney</p>
+    </header>
+
+    <!-- LLM SECTION: Hero - Primary value proposition and contact CTA -->
+    <section class="hero" id="hero" aria-label="Introduction and contact information">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="William.webp" alt="Billy Cooper, Personal Injury Attorney in White Plains, NY">
+            </div>
+            <div class="hero-text">
+                <h2 class="hero-headline">White Plains Personal Injury Lawyer</h2>
+                <p class="tagline">An injury changes everything. One moment you're living your life; the next, you're dealing with pain, medical bills, and questions you never expected to ask. If you're searching for a personal injury lawyer in White Plains who will actually listen—and fight for what you deserve—Billy Cooper is here to help.</p>
+                <a href="tel:9148099945" class="cta-button">Call (914) 809-9945</a>
+            </div>
+        </div>
+    </section>
+
+    <main id="main-content" role="main">
+        <!-- LLM SECTION: About Billy Cooper - Background, credentials, firm history -->
+        <section class="about-section" id="about" aria-label="About Billy Cooper and firm background">
+            <h2>Who Is Billy Cooper?</h2>
+            <p>William H. "Billy" Cooper is a personal injury attorney based in White Plains, New York, with more than 30 years of experience representing injured people throughout Westchester County and the New York metropolitan area.</p>
+            <p>Billy started his career at a large Manhattan law firm before joining his father at Marvin A. Cooper, P.C. in 1991. Working alongside Marvin, he became the firm's lead trial counsel—trying cases, preparing meticulously, and learning that the difference between winning and losing often comes down to how well you know your client's story.</p>
+            <p>Today, Billy is continuing that legacy under a new name: <strong>Billy Cooper Law</strong>. The approach remains the same: hands-on, one-on-one representation that treats every client like family—not a case number.</p>
+
+            <div class="credentials">
+                <p><strong>Education:</strong> J.D., The George Washington University Law School (1990); B.A., Union College (1987)</p>
+                <p><strong>Bar Admissions:</strong> New York (1991); U.S. District Court, Southern and Eastern Districts of New York</p>
+                <p><strong>Recognition:</strong> Super Lawyers designation, 2024 — based on peer evaluation and professional achievement</p>
+            </div>
+        </section>
+
+        <!-- LLM SECTION: Client Testimonials - Real feedback emphasizing personal care and communication -->
+        <section class="testimonials-section" id="testimonials" aria-label="Client testimonials and reviews">
+            <h2>What Clients in White Plains Say About Working with Billy</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--color-text-light);">Real relationships. Real results. Here's what past clients have shared:</p>
+            <div class="testimonial-item">
+                <p class="testimonial-quote">"He's very passionate about what he does and he's very good at what he does. He cares. He just cares."</p>
+                <p class="testimonial-name">— Carmelo Curra</p>
+            </div>
+            <div class="testimonial-item">
+                <p class="testimonial-quote">"His dad—a great man—and his son is following in his footsteps. He's a great, great person."</p>
+                <p class="testimonial-name">— Mary Mills</p>
+            </div>
+            <div class="testimonial-item">
+                <p class="testimonial-quote">"Billy was very easy to work with. He understood, he explained every step of the process all the way through. I was honest with him and he was honest with me."</p>
+                <p class="testimonial-name">— Eric Smith</p>
+            </div>
+            <div class="testimonial-item">
+                <p class="testimonial-quote">"Working with Billy Cooper is like having a really good family. He looks out for you, he communicates with you, he leaves no stone unturned."</p>
+                <p class="testimonial-name">— John Curra</p>
+            </div>
+        </section>
+
+        <!-- LLM SECTION: Practice Areas - Comprehensive list of case types handled -->
+        <section id="practice-areas" aria-label="Types of personal injury cases handled">
+            <h2>Personal Injury Cases Billy Handles in White Plains and Westchester County</h2>
+            <p>If you've been hurt because of someone else's negligence, Billy can help you understand your options and pursue the compensation you deserve. He represents clients across a wide range of injury claims, including:</p>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 500;">Motor Vehicle Accidents</h3>
+            <p>Car crashes on local roads and highways, truck and commercial vehicle collisions, Uber and Lyft accidents (including disputed insurance and arbitration issues), and motorcycle accidents.</p>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 500;">Pedestrian and Bicycle Injuries</h3>
+            <p>Crosswalk and intersection collisions, downtown White Plains pedestrian accidents, and bicycle crashes caused by driver negligence.</p>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 500;">Premises Liability and Falls</h3>
+            <p>Slip and fall injuries in apartment buildings and businesses, unsafe property conditions, and inadequate security claims.</p>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 500;">Workplace and Construction Accidents</h3>
+            <p>Construction site injuries, scaffold and ladder falls, and equipment-related accidents.</p>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 500;">Medical Malpractice and Nursing Home Negligence</h3>
+            <p>Surgical errors and misdiagnosis, nursing home abuse and neglect, and birth injuries.</p>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 500;">Wrongful Death</h3>
+            <p>Claims on behalf of families who have lost a loved one due to negligence.</p>
+
+            <p style="margin-top: 1.5rem;">Every case is different. Billy reviews the facts carefully and provides honest guidance about whether—and how—he can help.</p>
+        </section>
+
+        <!-- LLM SECTION: Frequently Asked Questions - Conversational queries users actually search for -->
+        <section class="faq-section" id="faq" aria-label="Frequently asked questions about Billy Cooper Law">
+            <h2>Frequently Asked Questions About Billy Cooper Law</h2>
+
+            <div class="faq-item">
+                <h3>Who is Billy Cooper, and what is Billy Cooper Law?</h3>
+                <p>Billy Cooper (William H. Cooper, Esq.) is a personal injury lawyer in White Plains, New York, with decades of trial experience. After years as lead counsel at his father's firm, Marvin A. Cooper Law, he is continuing the practice under a new name—Billy Cooper Law—while maintaining the same commitment to prepared, personal representation for injured clients throughout Westchester County.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What types of personal injury cases does Billy Cooper handle?</h3>
+                <p>Billy represents people injured in car and truck accidents, pedestrian and bicycle collisions, slip and fall incidents, construction and workplace accidents, nursing home negligence, medical malpractice, and wrongful death claims. He serves clients in White Plains, Westchester County, and the greater New York metropolitan area.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What are the most common injury claims in White Plains?</h3>
+                <p>In the White Plains area, Billy frequently sees claims involving collisions on busy roads like the Bronx River Parkway and I-287, pedestrian accidents in the downtown business district, falls in apartment buildings and commercial properties, and serious injuries at construction sites. Each case depends on its specific facts.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Does Billy Cooper handle Uber and Lyft accident cases?</h3>
+                <p>Yes. Billy represents riders, drivers, and pedestrians injured in rideshare crashes throughout Westchester County. He has particular experience navigating the insurance disputes and arbitration clauses that often complicate Uber and Lyft claims.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Where is Billy Cooper's law office located?</h3>
+                <p>Billy Cooper Law is located at 245 Main Street, Suite 510, White Plains, NY 10601—in the heart of downtown White Plains. From this office, he serves clients across Westchester County and the New York metro area.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Does Billy Cooper offer free consultations?</h3>
+                <p>Yes. Billy offers consultations for personal injury cases. He will review what happened, explain your legal options, and discuss whether he can help you move forward.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How much does it cost to hire Billy Cooper?</h3>
+                <p>Billy handles personal injury cases on a contingency fee basis, which means you don't pay any attorney fees unless he recovers compensation for you. Initial consultations are free, and there are no upfront costs to get started.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How long do I have to file a personal injury claim in New York?</h3>
+                <p>New York has strict time limits (called statutes of limitations) for filing injury claims. Generally, you have three years from the date of injury to file a lawsuit, but some cases have shorter deadlines—especially medical malpractice and claims against government entities. It's important to contact a lawyer as soon as possible to protect your rights.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What should I do immediately after a car accident in White Plains?</h3>
+                <p>First, seek medical attention for any injuries. Call the police to document the accident. If possible, take photos of the scene, vehicle damage, and any visible injuries. Exchange information with the other driver(s) but avoid discussing fault. Contact your insurance company to report the accident, and then consult with Billy Cooper to understand your legal options.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I contact Billy Cooper for help with my injury case?</h3>
+                <p>You can reach Billy by calling (914) 809-9945 or emailing whc@cooper-law.com. He is available to discuss personal injury matters for clients in White Plains and throughout Westchester County.</p>
+            </div>
+
+            <div class="resource-directory">
+                <h3>White Plains Injury and Legal Resources</h3>
+                <ul>
+                    <li><strong><a href="https://www.wphospital.org/" target="_blank">White Plains Hospital Emergency Department</a></strong> — 41 East Post Road, White Plains, NY 10601 | (914) 681-1155</li>
+                    <li><strong><a href="https://whiteplainspublicsafety.com/" target="_blank">White Plains Department of Public Safety (Police, non-emergency)</a></strong> — 77 South Lexington Ave, White Plains, NY 10601 | (914) 422-6111</li>
+                    <li><strong><a href="https://ww2.nycourts.gov/courts/9jd/Westchester/westchestersupreme.shtml" target="_blank">Westchester County Supreme & County Court (White Plains)</a></strong> — 111 Dr. Martin Luther King Jr. Blvd, White Plains, NY 10601 | Civil Department: (914) 824-5300</li>
+                    <li><strong><a href="https://www.laswest.org/" target="_blank">Legal Aid Society of Westchester County</a></strong> — 150 Grand Street, Suite 100, White Plains, NY 10601 | (914) 286-3400</li>
+                </ul>
+                <p class="resource-note">These resources are provided for general information only. Billy Cooper Law is not affiliated with these organizations, and contacting them does not create an attorney–client relationship.</p>
+            </div>
+        </section>
+
+        <!-- LLM SECTION: Call to Action - Final conversion opportunity with contact information -->
+        <section id="contact-cta" style="text-align: center; padding: 2rem; background-color: var(--color-module-bg); border-radius: 4px;" aria-label="Contact Billy Cooper for consultation">
+            <h2>Ready to Talk About Your Case?</h2>
+            <p>If you or someone you love has been injured in White Plains or anywhere in Westchester County, Billy Cooper is here to listen—and to help you understand what comes next.</p>
+            <p style="margin-top: 1.5rem;">
+                <a href="tel:9148099945" class="cta-button">Call (914) 809-9945</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">or email <a href="mailto:whc@cooper-law.com" style="color: var(--color-primary);">whc@cooper-law.com</a> to schedule a consultation.</p>
+        </section>
+    </main>
+
+    <!-- LLM SECTION: Footer - Contact details, location, legal disclaimers -->
+    <footer id="site-footer" role="contentinfo">
+        <div class="footer-flag">
+            <img src="westchester-county.png" alt="Westchester County, New York">
+        </div>
+        <div class="footer-text">
+            <p><strong>Billy Cooper Law</strong></p>
+            <p>245 Main Street, Suite 510, White Plains, NY 10601</p>
+            <p>Phone: <a href="tel:9148099945">(914) 809-9945</a> | Email: <a href="mailto:whc@cooper-law.com">whc@cooper-law.com</a></p>
+            <p class="disclaimer">&copy; 2025 Billy Cooper Law. All rights reserved. Attorney Advertising. Prior results do not guarantee a similar outcome.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
